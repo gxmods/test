@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GX MODS - Home</title>
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Безымянный2.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Menu_Button").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#Menu_Button_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#Menu_Button_panel"));
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Main_paper" style="position:absolute;left:0px;top:7px;width:1000px;height:1125px;z-index:0;">
+<img src="images/img0003.gif" id="Main_paper" alt="" style="width:1000px;height:1125px;"></div>
+<div id="wb_Menu_Button" style="position:absolute;left:0px;top:0px;width:83px;height:83px;z-index:1;">
+<a href="#Menu_Button_markup" id="Menu_Button">&nbsp;</a>
+<div id="Menu_Button_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./index.html"><i class="fa fa-home fa-fw"></i><span>Home</span></a></li>
+   <li role="menuitem"><a href="./news.html"><i class="fa fa-newspaper-o fa-fw"></i><span>News</span></a></li>
+   <li role="menuitem"><a href="./products.html"><i class="fa fa-shopping-basket fa-fw"></i><span>Products</span></a></li>
+   <li role="menuitem"><a href="./about.html"><i class="fa fa-info-circle fa-fw"></i><span>About</span></a></li>
+</ul>
+<div id="Menu_Button-footer">GX MODS</div>
+</div>
+</div>
+<div id="Main_Banner" style="position:absolute;left:85px;top:0px;width:913px;height:83px;z-index:2"><span>GX MODS - Home</span></div>
+<div id="wb_warning" style="position:absolute;left:22px;top:105px;width:659px;height:162px;z-index:3;">
+<span style="color:#FF0000;font-family:'Courier New';font-size:48px;"><strong>WARNING! <br>This is test version a WebSite!!!</strong></span></div>
+<div id="wb_Text1" style="position:absolute;left:22px;top:281px;width:426px;height:22px;z-index:4;">
+<span style="color:#000000;font-family:'Courier New';font-size:19px;"><strong><a href="http://gxmods.github.io" class="style1">Click here for back to normal WebSite</a></strong></span></div>
+<div id="wb_Text2" style="position:absolute;left:23px;top:324px;width:954px;height:216px;z-index:5;">
+<span style="color:#000000;font-family:'Courier New';font-size:48px;"><strong>Welcome to GX MODS!!!<br><br>Please, check &quot;About&quot; and &quot;Products&quot; for more expierens!</strong></span></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GX MODS - Virtual Box</title>
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Безымянный2.css" rel="stylesheet">
+<link href="virtual-box.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("#Menu_Button").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'left', toggle: true});
+   $("#Menu_Button_markup ul li a").click(function(event)
+   {
+       $.panel.hide($("#Menu_Button_panel"));
+   });
+});
+</script>
+</head>
+<body>
+<div id="container">
+<div id="wb_Main_paper" style="position:absolute;left:0px;top:0px;width:1000px;height:1125px;z-index:0;">
+<img src="images/img0011.gif" id="Main_paper" alt="" style="width:1000px;height:1125px;"></div>
+<div id="Main_Banner" style="position:absolute;left:85px;top:0px;width:913px;height:83px;z-index:1"><span>GX MODS - Virtual Box</span></div>
+<div id="wb_warning" style="position:absolute;left:22px;top:105px;width:659px;height:21px;z-index:2;">
+&nbsp;</div>
+<div id="wb_Menu_Button" style="position:absolute;left:0px;top:0px;width:83px;height:83px;z-index:3;">
+<a href="#Menu_Button_markup" id="Menu_Button">&nbsp;</a>
+<div id="Menu_Button_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="./../index.html"><i class="fa fa-home fa-fw"></i><span>Home</span></a></li>
+   <li role="menuitem"><a href="./../news.html"><i class="fa fa-newspaper-o fa-fw"></i><span>News</span></a></li>
+   <li role="menuitem"><a href="./../products.html"><i class="fa fa-shopping-basket fa-fw"></i><span>Products</span></a></li>
+   <li role="menuitem"><a href="./../about.html"><i class="fa fa-info-circle fa-fw"></i><span>About</span></a></li>
+</ul>
+<div id="Menu_Button-footer">GX MODS</div>
+</div>
+</div>
+</div>
+</body>
+</html>

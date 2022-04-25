@@ -1,0 +1,197 @@
+div#container
+{
+   width: 1000px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+body
+{
+   background-color: #C0C0C0;
+   color: #000000;
+   font-family: "Courier New";
+   font-weight: normal;
+   font-size: 19px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+#Main_paper
+{
+   border-width: 0;
+   vertical-align: top;
+}
+#Main_Banner
+{
+   background-color: #3E3E3E;
+   background-image: none;
+   border: 1px solid #2E2E2E;
+   color: #FFFFFF;
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 53px;
+   text-align: left;
+   margin: 0;
+}
+#Main_Banner span
+{
+   display: block;
+   height: 53px;
+   margin: 11px 0px 11px 30px;
+}
+#wb_warning 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_warning div
+{
+   text-align: left;
+}
+#wb_Menu_Button a, #Menu_Button_markup li a
+{
+   display: block;
+   text-align: left;
+   vertical-align: middle;
+}
+#Menu_Button_markup
+{
+   display: none;
+   margin: 0;
+   padding: 0;
+}
+#Menu_Button_panel #Menu_Button_markup
+{
+   display: block;
+}
+#Menu_Button_markup ul
+{
+   list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+#Menu_Button_markup li a, #Menu_Button_markup li a:hover
+{
+   padding: 10px 10px 10px 10px;
+   border-width: 0;
+   border-bottom-width: 1px;
+   border-radius: 0;
+   box-shadow: none;
+}
+#Menu_Button_markup .divider
+{
+   height: 1px;
+   margin: 9px 0;
+   overflow: hidden;
+   background-color: #2E2E2E;
+}
+#Menu_Button_panel
+{
+   display: none;
+   position: absolute;
+   position: fixed;
+   top: 0;
+   height: 100%;
+   width: 250px;
+   z-index: 9999;
+}
+#Menu_Button_markup li a
+{
+   color: #F7F7F7;
+   border: 1px solid #2E2E2E;
+   background-color: #3E3E3E;
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 37px;
+   font-style: normal;
+   text-decoration: none;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#wb_Menu_Button a
+{
+   color: #F7F7F7;
+   border: 1px solid #2E2E2E;
+   background-color: #3E3E3E;
+   font-family: "Courier New";
+   font-weight: bold;
+   font-size: 37px;
+   font-style: normal;
+   text-decoration: none;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+}
+#Menu_Button_markup li a:hover
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#wb_Menu_Button a:hover
+{
+   color: #F7F7F7;
+   background-color: #484848;
+   border: 1px solid #2E2E2E;
+}
+#Menu_Button_panel
+{
+   background-color: #3E3E3E;
+   overflow-y: auto;
+}
+#Menu_Button
+{
+   padding-left: 63px;
+}
+#Menu_Button:after
+{
+   position: absolute;
+   top: 50%;
+   left: 23px;
+   width: 40px;
+   height: 40px;
+   margin-top: -20px;
+   content: "\f0c9";
+   display: inline-block;
+   font-family: FontAwesome;
+   font-size: 40px;
+   line-height: 40px;
+}
+#Menu_Button
+{
+   line-height: 83px;
+   width: 20px;
+   height: 83px;
+   position: absolute;
+   z-index: 999;
+}
+#Menu_Button_markup ul li i
+{
+   font-size: 40px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 40px;
+}
+#Menu_Button_markup span
+{
+   display: inline-block;
+   height: 40px;
+   vertical-align: middle;
+   line-height: 40px;
+}
+#Menu_Button-footer
+{
+   bottom: 0;
+   color: #F7F7F7;
+   font-family: "Courier New";
+   font-size: 37px;
+   left: 0;
+   padding: 0px 0px 37px 0px;
+   position: absolute;
+   text-align: center;
+   width: 100%;
+}
